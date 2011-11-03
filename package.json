@@ -1,0 +1,14 @@
+{
+  "author": "clux <analsandblaster@gmail.com>",
+  "name": "fsx",
+  "description": "Simple recursive file and directory reader using synchronous node fs calls",
+  "version": "1.0.0",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.4.10"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
