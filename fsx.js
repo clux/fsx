@@ -1,6 +1,8 @@
 var fs = require('fs')
   , path = require('path');
 
+exports.version = JSON.parse(fs.readFileSync(path.join(__dirname, 'package.json'), 'utf8')).version;
+
 exports.readDirSync = function (start) {
   try {
     var found = {
@@ -34,11 +36,10 @@ exports.readDirSync = function (start) {
     return found;
   }
   catch (e) {
-    if (e.code !== 'ENOENT') { // ignore non-existing dirs
+    if (e.code !== 'ENOENT') { // dont throw on non-existing dirs
       throw e;
     }
     return false;
   }
 };
 
-exports.version = JSON.parse(fs.readFileSync(__dirname + '/package.json', 'utf8')).version;
