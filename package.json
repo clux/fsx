@@ -2,7 +2,7 @@
   "author": "Eirik Albrigtsen <analsandblaster@gmail.com>",
   "name": "fsx",
   "description": "Simple recursive file and directory reader using synchronous node fs calls",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "main": "fsx.js",
   "repository": {
     "type": "git",
