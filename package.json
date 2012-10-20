@@ -7,11 +7,5 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/clux/fsx.git"
-  },
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {},
-  "devDependencies": {},
-  "optionalDependencies": {}
+  }
 }
