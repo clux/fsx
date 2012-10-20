@@ -5,25 +5,25 @@ Will scan a directory recursively, keep track of both files and directories, and
 
 Install with
 
-````bash
+```bash
 npm install fsx
-````
+```
 
 then
 
-````javascript
+```javascript
 var fsx = require('fsx');
 var output = fsx.readDirSync(dir);
-````
+```
 
 yielding:
 
-````javascript
+```javascript
 console.log(output);
 ->
 {
   dirs: [pathstodirs],
   files: [paths to files],
 }
-````
+```
 
