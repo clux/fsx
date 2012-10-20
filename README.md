@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/clux/fsx.png)](http://travis-ci.org/clux/fsx)
 # fsx
 
 Just a small utility that I had to copy for many of my modules.
